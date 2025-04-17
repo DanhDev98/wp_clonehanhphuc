@@ -64,6 +64,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 a:has(img) {
@@ -173,6 +174,12 @@ textarea {
   /* Body font size */
   --font-size-body: 0.875rem;
   --font-size-body-sm: 0.625rem;
+}
+
+.acf-custom-fields {
+  height: 200px;
+  width: 100%;
+  background-color: #ad122a;
 }
 
 .container {
@@ -1552,7 +1559,7 @@ img {
     margin-top: 4px;
   }
 
-  .header__main .header__main-menu .header__menu-extend .header__action-item img{
+  .header__main .header__main-menu .header__menu-extend .header__action-item img {
     width: 20px;
   }
 
@@ -1662,7 +1669,9 @@ img {
 
   .footer__main-nav .footer__nav-list:last-child .footer__nav-list-children .footer__nav-list-child a {
     margin-top: 0px;
+
   }
+
 
   .footer__main .footer__main-ctas {
     flex-direction: column;

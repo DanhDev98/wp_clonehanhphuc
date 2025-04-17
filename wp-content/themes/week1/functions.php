@@ -54,13 +54,15 @@ function sna_load_assets()
     );
 
     // Main + Home CSS
+
     wp_enqueue_style(
-        'main-style',
-        get_template_directory_uri() . '/assets/css/main.css',
+        'posts-style',
+        get_template_directory_uri() . '/assets/css/posts.css',
         array(),
-        filemtime(get_template_directory() . '/assets/css/main.css'),
+        filemtime(get_template_directory() . '/assets/css/posts.css'),
         'all'
     );
+
 
     wp_enqueue_style(
         'home-style',
@@ -69,6 +71,33 @@ function sna_load_assets()
         filemtime(get_template_directory() . '/assets/css/home.css'),
         'all'
     );
+
+
+    if (is_page('event-page')) {
+        wp_enqueue_style(
+            'event-style',
+            get_template_directory_uri() . '/assets/css/event-page.css',
+            array(),
+            filemtime(get_template_directory() . '/assets/css/event-page.css'),
+            'all'
+        );
+    }
+    wp_enqueue_style(
+        'main-style',
+        get_template_directory_uri() . '/assets/css/main.css',
+        array(),
+        filemtime(get_template_directory() . '/assets/css/main.css'),
+        'all'
+    );
+    wp_enqueue_style(
+        'postdetail-style',
+        get_template_directory_uri() . '/assets/css/post-details.css',
+        array(),
+        filemtime(get_template_directory() . '/assets/css/post-details.css'),
+        'all'
+    );
+
+
     wp_enqueue_script(
         'flatpickr',
         'https://cdn.jsdelivr.net/npm/flatpickr',
@@ -86,6 +115,29 @@ function sna_load_assets()
         array("jquery", "flatpickr"), // jQuery là dependency
         "1.0",
         true
+    );
+
+    wp_enqueue_script(
+        "event-script",
+        get_theme_file_uri() . "/assets/js/event-page.js",
+        array("jquery", "flatpickr"), // jQuery là dependency
+        "1.1",
+        true
+    );
+
+    wp_enqueue_script(
+        "detail-script",
+        get_theme_file_uri() . "/assets/js/post-details.js",
+        array("jquery", "flatpickr"), // jQuery là dependency
+        "1.1.1",
+        true
+    );
+    wp_enqueue_script(
+        'google-recaptcha',
+        'https://www.google.com/recaptcha/api.js',
+        array(),
+        null,
+        true // Load ở footer
     );
     // Scripts
 
@@ -150,3 +202,4 @@ function sna_custom_fonts_inline()
     <?php
 }
 add_action('wp_head', 'sna_custom_fonts_inline');
+add_theme_support('post-thumbnails');
