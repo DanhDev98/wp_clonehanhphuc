@@ -477,7 +477,7 @@
                                     <i class="fa-solid fa-chevron-right"></i>
                                 </li>
                                 <li class="header__submenu-item">
-                                    <a href="<?php echo esc_url(site_url('index.php/news-page/')); ?>">News</a>
+                                    <a href="<?php echo site_url('index.php/news-page/'); ?>">News</a>
                                     <i class="fa-solid fa-chevron-right"></i>
                                 </li>
                             </ul>

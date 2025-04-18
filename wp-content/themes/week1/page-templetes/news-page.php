@@ -61,215 +61,47 @@ get_header()
 
             <section class="post-grid">
                 <div class="post-grid__main">
-                    <a class="post__item-wrapper" href="/news/how-sport-shape-student-leaders.html">
-                        <article class="post__item">
-                            <div class="post__item-tag">NEWS</div>
-                            <div class="post__item-thumbnail">
-                                <img src="<?php echo get_theme_file_uri() . '/assets/img/post/IMG sport 2.png' ?>"
-                                    alt="post thumbnail">
-                            </div>
-                            <div class="post__item-content">
-                                <time class="post__content-date">20 Sep 2024</time>
-                                <h4 class="post__content-title">HOW SPORTS SHAPE STUDENT LEADERS</h4>
-                                <p class="post__content-description">
-                                    Sports have long been celebrated for their ability to
-                                    develop various physical skills and promote a healthy lifestyle. However, their
-                                    impact
-                                    extends far …
-                                </p>
-                                <div class="post__item-cta">
-                                    Read article
-                                    <img src="<?php echo get_theme_file_uri() . '/assets/img/icons/arrow-cta-icon.svg' ?>"
-                                        alt="arrow cta">
-                                </div>
-                            </div>
-                        </article>
-                    </a>
-                    <a class="post__item-wrapper" href="/news/how-sport-shape-student-leaders.html">
-                        <article class="post__item">
-                            <div class="post__item-tag">NEWS</div>
-                            <div class="post__item-thumbnail">
-                                <img src="<?php echo get_theme_file_uri() . '/assets/img/post/post-2.jpg' ?>"
-                                    alt="post thumbnail">
-                            </div>
-                            <div class="post__item-content">
-                                <time class="post__content-date">25 Aug 2024</time>
-                                <h4 class="post__content-title">ENSURING HEALTH AND WELLNESS WITH NUTRITIOUS MEALS AT
-                                    SNA
-                                </h4>
-                                <p class="post__content-description">
-                                    At SNA Saigon South Campus, the commitment to nurturing well-rounded students goes
-                                    beyond academics. One of the essential pillars supporting ...
-                                </p>
-                                <div class="post__item-cta">
-                                    Read article
-                                    <img src="<?php echo get_theme_file_uri() . '/assets/img/icons/arrow-cta-icon.svg' ?>"
-                                        alt="arrow cta">
-                                </div>
-                            </div>
-                        </article>
-                    </a>
-                    <a class="post__item-wrapper" href="/news/how-sport-shape-student-leaders.html">
-                        <article class="post__item">
-                            <div class="post__item-tag">NEWS</div>
-                            <div class="post__item-thumbnail">
-                                <img src="<?php echo get_theme_file_uri() . '/assets/img/post/post-3.jpg' ?>"
-                                    alt="post thumbnail">
-                            </div>
-                            <div class="post__item-content">
-                                <time class="post__content-date">25 Aug 2024</time>
-                                <h4 class="post__content-title">THE IMPORTANT ROLE OF COORDINATORS IN THE IB...</h4>
-                                <p class="post__content-description">
-                                    The International Baccalaureate (IB) Programmes are known for their rigorous
-                                    academic
-                                    standards, holistic development approach, and global...
-                                </p>
-                                <div class="post__item-cta">
-                                    Read article
-                                    <img src="<?php echo get_theme_file_uri() . '/assets/img/icons/arrow-cta-icon.svg' ?>"
-                                        alt="arrow cta">
-                                </div>
-                            </div>
-                        </article>
-                    </a>
-                    <a class="post__item-wrapper" href="/news/how-sport-shape-student-leaders.html">
-                        <article class="post__item">
-                            <div class="post__item-tag">NEWS</div>
-                            <div class="post__item-thumbnail">
-                                <img src="<?php echo get_theme_file_uri() . '/assets/img/post/post-4.jpg' ?>"
-                                    alt="post thumbnail">
-                            </div>
-                            <div class="post__item-content">
-                                <time class="post__content-date">25 Aug 2024</time>
-                                <h4 class="post__content-title">THE IMPORTANT ROLE OF COORDINATORS IN THE IB...</h4>
-                                <p class="post__content-description">
-                                    The International Baccalaureate (IB) Programmes are known for their rigorous
-                                    academic
-                                    standards, holistic development approach, and global...
-                                </p>
-                                <div class="post__item-cta">
-                                    Read article
-                                    <img src="<?php echo get_theme_file_uri() . '/assets/img/icons/arrow-cta-icon.svg' ?>"
-                                        alt="arrow cta">
-                                </div>
-                            </div>
-                        </article>
-                    </a>
-                    <a class="post__item-wrapper" href="/news/how-sport-shape-student-leaders.html">
-                        <article class="post__item">
-                            <div class="post__item-tag">NEWS</div>
-                            <div class="post__item-thumbnail">
-                                <img src="<?php echo get_theme_file_uri() . '/assets/img/post/post-5.jpg' ?>"
-                                    alt="post thumbnail">
-                            </div>
-                            <div class="post__item-content">
-                                <time class="post__content-date">25 Aug 2024</time>
-                                <h4 class="post__content-title">THE IMPORTANT ROLE OF COORDINATORS IN THE IB...</h4>
-                                <p class="post__content-description">
-                                    The International Baccalaureate (IB) Programmes are known for their rigorous
-                                    academic
-                                    standards, holistic development approach, and global...
-                                </p>
-                                <div class="post__item-cta">
-                                    Read article
-                                    <img src="<?php echo get_theme_file_uri() . '/assets/img/icons/arrow-cta-icon.svg' ?>"
-                                        alt="arrow cta">
-                                </div>
-                            </div>
-                        </article>
-                    </a>
-                    <a class="post__item-wrapper" href="/news/how-sport-shape-student-leaders.html">
-                        <article class="post__item">
-                            <div class="post__item-tag">NEWS</div>
-                            <div class="post__item-thumbnail">
-                                <img src="<?php echo get_theme_file_uri() . '/assets/img/post/post-6.jpg' ?>"
-                                    alt="post thumbnail">
-                            </div>
-                            <div class="post__item-content">
-                                <time class="post__content-date">25 Aug 2024</time>
-                                <h4 class="post__content-title">THE IMPORTANT ROLE OF COORDINATORS IN THE IB...</h4>
-                                <p class="post__content-description">
-                                    The International Baccalaureate (IB) Programmes are known for their rigorous
-                                    academic
-                                    standards, holistic development approach, and global...
-                                </p>
-                                <div class="post__item-cta">
-                                    Read article
-                                    <img src="<?php echo get_theme_file_uri() . '/assets/img/icons/arrow-cta-icon.svg' ?>"
-                                        alt="arrow cta">
-                                </div>
-                            </div>
-                        </article>
-                    </a>
-                    <a class="post__item-wrapper" href="/news/how-sport-shape-student-leaders.html">
-                        <article class="post__item">
-                            <div class="post__item-tag">NEWS</div>
-                            <div class="post__item-thumbnail">
-                                <img src="<?php echo get_theme_file_uri() . '/assets/img/post/post-3.jpg' ?>"
-                                    alt="post thumbnail">
-                            </div>
-                            <div class="post__item-content">
-                                <time class="post__content-date">25 Aug 2024</time>
-                                <h4 class="post__content-title">THE IMPORTANT ROLE OF COORDINATORS IN THE IB...</h4>
-                                <p class="post__content-description">
-                                    The International Baccalaureate (IB) Programmes are known for their rigorous
-                                    academic
-                                    standards, holistic development approach, and global...
-                                </p>
-                                <div class="post__item-cta">
-                                    Read article
-                                    <img src="<?php echo get_theme_file_uri() . '/assets/img/icons/arrow-cta-icon.svg' ?>"
-                                        alt="arrow cta">
-                                </div>
-                            </div>
-                        </article>
-                    </a>
-                    <a class="post__item-wrapper" href="/news/how-sport-shape-student-leaders.html">
-                        <article class="post__item">
-                            <div class="post__item-tag">NEWS</div>
-                            <div class="post__item-thumbnail">
-                                <img src="<?php echo get_theme_file_uri() . '/assets/img/post/post-3.jpg' ?>"
-                                    alt="post thumbnail">
-                            </div>
-                            <div class="post__item-content">
-                                <time class="post__content-date">25 Aug 2024</time>
-                                <h4 class="post__content-title">THE IMPORTANT ROLE OF COORDINATORS IN THE IB...</h4>
-                                <p class="post__content-description">
-                                    The International Baccalaureate (IB) Programmes are known for their rigorous
-                                    academic
-                                    standards, holistic development approach, and global...
-                                </p>
-                                <div class="post__item-cta">
-                                    Read article
-                                    <img src="<?php echo get_theme_file_uri() . '/assets/img/icons/arrow-cta-icon.svg' ?>"
-                                        alt="arrow cta">
-                                </div>
-                            </div>
-                        </article>
-                    </a>
-                    <a class="post__item-wrapper" href="/news/how-sport-shape-student-leaders.html">
-                        <article class="post__item">
-                            <div class="post__item-tag">NEWS</div>
-                            <div class="post__item-thumbnail">
-                                <img src="<?php echo get_theme_file_uri() . '/assets/img/post/post-3.jpg' ?>"
-                                    alt="post thumbnail">
-                            </div>
-                            <div class="post__item-content">
-                                <time class="post__content-date">25 Aug 2024</time>
-                                <h4 class="post__content-title">THE IMPORTANT ROLE OF COORDINATORS IN THE IB...</h4>
-                                <p class="post__content-description">
-                                    The International Baccalaureate (IB) Programmes are known for their rigorous
-                                    academic
-                                    standards, holistic development approach, and global...
-                                </p>
-                                <div class="post__item-cta">
-                                    Read article
-                                    <img src="<?php echo get_theme_file_uri() . '/assets/img/icons/arrow-cta-icon.svg' ?>"
-                                        alt="arrow cta">
-                                </div>
-                            </div>
-                        </article>
-                    </a>
+                <?php
+$args = array(
+    'post_type' => 'post',
+    'posts_per_page' => 8
+);
+
+$loop = new WP_Query($args);
+
+if ($loop->have_posts()) :
+    while ($loop->have_posts()) : $loop->the_post();
+
+        $thumbnail = get_field('thumbnail');
+        $tag = get_field('tag');
+        $date = get_field('date');
+        $title = get_field('title');
+        $description = get_field('description');
+        $link = get_field('link');
+?>
+    <a class="post__item-wrapper" href="<?php the_permalink(); ?>">
+        <article class="post__item">
+            <div class="post__item-tag"><?php echo esc_html($tag); ?></div>
+            <div class="post__item-thumbnail">
+                <img src="<?php echo esc_url($thumbnail); ?>" alt="post thumbnail">
+            </div>
+            <div class="post__item-content">
+                <time class="post__content-date"><?php echo esc_html($date); ?></time>
+                <h4 class="post__content-title"><?php echo esc_html($title); ?></h4>
+                <p class="post__content-description"><?php echo esc_html($description); ?></p>
+                <div class="post__item-cta">
+                    Read article
+                    <img src="<?php echo get_theme_file_uri() . '/assets/img/icons/arrow-cta-icon.svg' ?>" alt="arrow cta">
+                </div>
+            </div>
+        </article>
+    </a>
+<?php
+    endwhile;
+    wp_reset_postdata();
+endif;
+?>
+
                 </div>
                 <ul class="post-grid__pagination">
                     <li class="page page--current">1</li>
